@@ -1,0 +1,11 @@
+.font-title{
+    font-family: var(--font-primary);
+    font-weight: var(--font-weight-black);
+
+}
+
+.btn{
+    text-transform: uppercase;
+    width: 200px;
+    height: 65px;
+}
