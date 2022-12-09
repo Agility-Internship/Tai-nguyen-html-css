@@ -1,0 +1,46 @@
+@font-face {
+  font-family: "raleway";
+  src: url(../fonts/Raleway-Thin.ttf);
+  font-family: "playfairdisplay";
+  src: url(../fonts/PlayfairDisplay-Regular.ttf);
+}
+
+:root {
+  /* --------------font----------------- */
+  --font-family: "raleway";
+  --font-title: "playfairdisplay";
+
+  /* ---------color---------- */
+  --primary-color: #caeac7;
+  --secondary-color: #f7f7f7;
+  --title-color: #000000;
+  --footer-color: #caeac7;
+
+  /* ----------font weight------------ */
+  --font-weight-semiboil: 900;
+  --font-weight-navbar: 800;
+  --font-weight-text: 500;
+
+  /* ----------font-size-------------- */
+  --font-size-x-small: 16px;
+  --font-size-small: 17px;
+  --font-size-medium: 19px;
+  --font-size-large: 21px;
+  --font-size-x-large: 34px;
+  --font-size-xx-large: 35px;
+  --font-size-xxx-large: 44px;
+
+  /* -----------line-height---------- */
+  --line-height-xxx-small: 19px;
+  --line-height-xx-small: 20px;
+  --line-height-x-small: 22px;
+  --line-height-small: 25px;
+  --line-height-medium: 26px;
+  --line-height-normal: 40px;
+  --line-height-large: 41px;
+  --line-height-x-large: 48px;
+  --line-height-xx-large: 71px;
+  --line-height-xxx-large: 80px;
+
+  /* ----------------------- */
+}
