@@ -1,0 +1,49 @@
+@import url(../styles/variables.css);
+@import url(../styles/gerenal.css);
+@import url(../styles/reset.css);
+
+.wrapper{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.container-fluid{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px 0 73px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.logo-photo{
+    width: 129px;
+    height: 64.5px;
+}
+
+.navbar-nav{
+    display: flex;
+    gap: 38px;
+    
+    align-items: center;
+}
+.nav-link{
+    font-family: var(--font-secondary);
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-small);
+    line-height: var(--line-height-xx-small);
+    text-transform: uppercase;
+    color: var(--tertiary-color);
+    border-bottom: 3px solid var(--quaternary-color);
+    padding: 0 6px 6px 6px;
+}
+
+.btn-custom{
+    width: 168px;
+    height: 41px;
+    background-color: var(--quaternary-color);
+    border: none;
+    color: var(--quinary-color);
+    align-items: center;
+
+
+}
