@@ -7,19 +7,21 @@
 
 :root {
   /* --------------font----------------- */
-  --font-family: "raleway";
-  --font-title: "playfairdisplay";
+  --font-primary: "playfairdisplay";
+  --font-secondary: "raleway";
+  
 
   /* ---------color---------- */
   --primary-color: #caeac7;
   --secondary-color: #f7f7f7;
-  --title-color: #000000;
-  --footer-color: #caeac7;
+  --tertiary-color: #000000;
+  --quaternary-color: #4BA87D;
+  --quinary-color: #fFFFFF;
 
   /* ----------font weight------------ */
-  --font-weight-semiboil: 900;
-  --font-weight-navbar: 800;
-  --font-weight-text: 500;
+  --font-weight-black: 900;
+  --font-weight-bold: 800;
+  --font-weight-medium: 500;
 
   /* ----------font-size-------------- */
   --font-size-x-small: 16px;
