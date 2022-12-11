@@ -9,14 +9,18 @@
   /* --------------font----------------- */
   --font-primary: "playfairdisplay";
   --font-secondary: "raleway";
-  
 
   /* ---------color---------- */
   --primary-color: #caeac7;
   --secondary-color: #f7f7f7;
   --tertiary-color: #000000;
-  --quaternary-color: #4BA87D;
-  --quinary-color: #fFFFFF;
+  --quaternary-color: #4ba87d;
+  --quinary-color: #ffffff;
+  --square-one-color: #efe1bc;
+  --square-two-color: #f4f4f4;
+  --circle-one-color: #d9f4f2;
+  --circle-one-color: #afcbad;
+  --diamond-color: #f4bebd;
 
   /* ----------font weight------------ */
   --font-weight-black: 900;
@@ -24,13 +28,15 @@
   --font-weight-medium: 500;
 
   /* ----------font-size-------------- */
-  --font-size-x-small: 16px;
-  --font-size-small: 17px;
-  --font-size-medium: 19px;
-  --font-size-large: 21px;
-  --font-size-x-large: 34px;
-  --font-size-xx-large: 35px;
-  --font-size-xxx-large: 44px;
+  --font-size-xxx-small: 16px;
+  --font-size-xx-small: 17px;
+  --font-size-x-small: 19px;
+  --font-size-small: 21px;
+  --font-size-medium: 34px;
+  --font-size-large: 35px;
+  --font-size-x-large: 44px;
+  --font-size-xx-large: 59px;
+  --font-size-xxx-large: 60px;
 
   /* -----------line-height---------- */
   --line-height-xxx-small: 19px;
