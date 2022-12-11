@@ -1,11 +1,38 @@
-.font-title{
-    font-family: var(--font-primary);
-    font-weight: var(--font-weight-black);
-
+.title {
+  font-family: var(--font-primary);
+  font-weight: var(--font-weight-black);
+  color: var(--tertiary-color);
+}
+.text {
+  font-family: var(--font-secondary);
+  font-weight: var(--font-weight-medium);
+  font-size: var(--font-size-x-small);
+  line-height: var(--line-height-xxx-small);
+  color: var(--tertiary-color);
+}
+.btn {
+  font-family: var(--font-secondary);
+  font-weight: var(--font-weight-black);
+  font-size: var(--font-size-small);
+  line-height: var(--line-height-small);
+  text-transform: uppercase;
+  border: none;
+  width: 200px;
+  height: 65px;
+  text-align: center;
 }
 
-.btn{
-    text-transform: uppercase;
-    width: 200px;
-    height: 65px;
+.boxed {
+  position: relative;
+}
+
+.square {
+  position: relative;
+  width: 30px;
+  height: 30px;
+}
+.diamond {
+  text-transform: capitalize;
+  position: relative;
+  transform: rotate(-45deg);
 }
