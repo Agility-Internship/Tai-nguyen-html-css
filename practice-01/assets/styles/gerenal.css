@@ -36,3 +36,11 @@
   position: relative;
   transform: rotate(-45deg);
 }
+
+.link{
+  font-family: var(--font-secondary);
+  font-weight: var(--font-weight-xxx-small);
+  line-height: var(--line-height-xxx-small);
+  color: var(--quaternary-color);
+  text-transform: capitalize;
+}
