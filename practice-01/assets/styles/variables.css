@@ -1,0 +1,54 @@
+@font-face {
+  font-family: "raleway";
+  src: url(../fonts/Raleway-Thin.ttf);
+  font-family: "playfairdisplay";
+  src: url(../fonts/PlayfairDisplay-Regular.ttf);
+}
+
+:root {
+  /* --------------font----------------- */
+  --font-primary: "playfairdisplay";
+  --font-secondary: "raleway";
+
+  /* ---------color---------- */
+  --primary-color: #caeac7;
+  --secondary-color: #f7f7f7;
+  --tertiary-color: #000000;
+  --quaternary-color: #4ba87d;
+  --quinary-color: #ffffff;
+  --square-one-color: #efe1bc;
+  --square-two-color: #f4f4f4;
+  --circle-one-color: #d9f4f2;
+  --circle-one-color: #afcbad;
+  --diamond-color: #f4bebd;
+
+  /* ----------font weight------------ */
+  --font-weight-black: 900;
+  --font-weight-bold: 800;
+  --font-weight-thin: 700;
+  --font-weight-medium: 500;
+
+  /* ----------font-size-------------- */
+  --font-size-xxx-small: 16px;
+  --font-size-xx-small: 17px;
+  --font-size-x-small: 19px;
+  --font-size-small: 21px;
+  --font-size-medium: 34px;
+  --font-size-large: 35px;
+  --font-size-x-large: 44px;
+  --font-size-xx-large: 59px;
+  --font-size-xxx-large: 60px;
+
+  /* -----------line-height---------- */
+  --line-height-xxx-small: 19px;
+  --line-height-xx-small: 20px;
+  --line-height-x-small: 22px;
+  --line-height-small: 25px;
+  --line-height-medium: 26px;
+  --line-height-normal: 40px;
+  --line-height-large: 41px;
+  --line-height-x-large: 48px;
+  --line-height-xx-large: 71px;
+  --line-height-xxx-large: 80px;
+
+}
