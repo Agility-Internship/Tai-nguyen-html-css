@@ -169,46 +169,72 @@
   top: 40px;
 }
 
-.info{
+.info {
   position: relative;
   width: 1089px;
   height: 533px;
   display: flex;
   left: 150px;
-  top: 270px;
+  bottom: 30px;
 }
 
-.info-card{
+.info-card {
   position: relative;
   width: 320px;
   height: 449px;
   padding: 0 0 0 50px;
-
 }
-.img-girl{
+.img-girl {
   width: 320px;
   height: 253px;
 }
-.text-img{
+.text-img {
+  position: relative;
   font-size: var(--font-size-xxx-small);
   line-height: var(--line-height-medium);
   width: 251px;
   height: 102px;
-  justify-content: center;
+  left: 25px;
 }
-.link{
+.link {
   font-size: var(--font-size-xxx-small);
+  position: relative;
+  left: 25px;
 }
 
-.img-team{
+.img-team {
   position: relative;
   width: 320px;
   height: 249px;
   top: 85px;
 }
 
-.text-card{
+.text-card {
   width: 320px;
   height: 196px;
   background: var(--quinary-color);
+}
+
+.text-team {
+  position: relative;
+  top: 80px;
+}
+.link-team {
+  position: relative;
+  top: 20px;
+}
+
+.info-text {
+  position: relative;
+  width: 365px;
+  height: 324px;
+  left: 40px;
+  top: 130px;
+}
+.info-title {
+  font-size: var(--font-size-x-large);
+  line-height: var(-line-height-x-large);
+}
+.text-sec {
+  font-size: var(fon-size-x-small);
 }
