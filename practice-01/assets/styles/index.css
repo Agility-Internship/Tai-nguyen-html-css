@@ -55,6 +55,9 @@
   padding: 120px 0 0 80px;
   display: flex;
 }
+.banner-text{
+  z-index: 1;
+}
 
 .title {
   font-size: var(--font-size-xxx-large);
@@ -85,6 +88,7 @@
   height: 383px;
   background-repeat: no-repeat;
   margin: 0 -1070px -15px -15px;
+  z-index: 1;
 }
 
 .square-primary {
@@ -125,11 +129,7 @@
 }
 
 .container-marketing {
-  position: relative;
-  width: 1400px;
-  height: 744px;
   background: var(--secondary-color);
-  bottom: 90px;
 }
 .video {
   position: relative;
@@ -148,7 +148,7 @@
   height: 531px;
   background-position: center;
   background-repeat: no-repeat;
-  top: 90px;
+  background-size: cover;
 }
 
 .title-banner {
@@ -161,10 +161,9 @@
   color: var(--quinary-color);
   text-transform: capitalize;
   line-height: var(--line-height-xxx-large);
-  top: 0px;
 }
 
-.btn-tertiary {
+.btn-video {
   position: relative;
   border: none;
   top: 40px;

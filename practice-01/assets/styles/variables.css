@@ -23,6 +23,7 @@
   /* ----------font weight------------ */
   --font-weight-black: 900;
   --font-weight-bold: 800;
+  --font-weight-thin: 700;
   --font-weight-medium: 500;
   /* ----------font-size-------------- */
   --font-size-xxx-small: 16px;
@@ -45,4 +46,6 @@
   --line-height-x-large: 48px;
   --line-height-xx-large: 71px;
   --line-height-xxx-large: 80px;
+
+  /* ----------------------- */
 }
