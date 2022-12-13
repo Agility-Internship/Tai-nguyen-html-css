@@ -54,6 +54,9 @@
   padding: 120px 0 0 80px;
   display: flex;
 }
+.banner-text{
+  z-index: 1;
+}
 
 .title {
   font-size: var(--font-size-xxx-large);
@@ -84,6 +87,7 @@
   height: 383px;
   background-repeat: no-repeat;
   margin: 0 -1070px -15px -15px;
+  z-index: 1;
 }
 
 .square-one {
@@ -123,43 +127,3 @@
   left: 193px;
 }
 
-.container-marketing {
-  background: var(--secondary-color);
-}
-.video {
-  position: relative;
-  display: flex;
-  width: 994px;
-  height: 531px;
-  justify-content: center;
-  align-items: center;
-  margin: 50px 0px 0px 220px;
-}
-
-.video-img {
-  position: relative;
-  background-image: url(../images/mains/customers.png);
-  width: 944px;
-  height: 531px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.title-banner {
-  position: relative;
-  text-align: center;
-  top: 165px;
-}
-
-.title-video {
-  color: var(--quinary-color);
-  text-transform: capitalize;
-  line-height: var(--line-height-xxx-large);
-}
-
-.btn-video {
-  position: relative;
-  border: none;
-  top: 40px;
-}
