@@ -54,7 +54,7 @@
   padding: 120px 0 0 80px;
   display: flex;
 }
-.banner-text{
+.banner-text {
   z-index: 1;
 }
 
@@ -127,3 +127,27 @@
   left: 193px;
 }
 
+.marketing-section {
+  position: relative;
+  background-image: url(../images/mains/customers.png);
+  width: 944px;
+  height: 531px;
+  margin-left: 270px;
+  bottom: 120px;
+}
+
+.title-poster {
+  position: relative;
+  color: var(--quinary-color);
+  text-transform: capitalize;
+  line-height: var(--line-height-xxx-large);
+  text-align: center;
+  margin-top: 170px;
+  top: 165px;
+}
+
+.marketing-section .btn {
+  border: none;
+  margin-top: 222px;
+  margin-left: 39%;
+}
