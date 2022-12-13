@@ -7,7 +7,7 @@
   font-family: var(--font-secondary);
   font-weight: var(--font-weight-medium);
   font-size: var(--font-size-x-small);
-  line-height: var(--line-height-xxx-small);
+  line-height: var(--line-height-medium);
   color: var(--tertiary-color);
 }
 .btn {
@@ -39,8 +39,8 @@
 
 .link{
   font-family: var(--font-secondary);
-  font-weight: var(--font-weight-xxx-small);
-  line-height: var(--line-height-xxx-small);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-x-small);
   color: var(--quaternary-color);
   text-transform: capitalize;
 }
