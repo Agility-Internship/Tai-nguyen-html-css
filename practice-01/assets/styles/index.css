@@ -127,10 +127,10 @@
   left: 193px;
 }
 
-.container-marketing {
+.marketing-section {
   background: var(--secondary-color);
 }
-.video {
+.poster {
   position: relative;
   display: flex;
   width: 994px;
@@ -140,7 +140,7 @@
   margin: 50px 0px 0px 220px;
 }
 
-.video-img {
+.poster-img {
   position: relative;
   background-image: url(../images/mains/customers.png);
   width: 944px;
@@ -150,19 +150,18 @@
   background-size: cover;
 }
 
-.title-banner {
-  text-align: center;
-  top: 165px;
-}
 
-.title-video {
+.title-poster {
   color: var(--quinary-color);
   text-transform: capitalize;
   line-height: var(--line-height-xxx-large);
+  text-align: center;
   margin-top: 170px;
+  top: 165px;
 }
 
-.btn-secondary-bottom {
+.marketing-section .btn{
   border: none;
   margin-top: 61px;
+  margin-left: 39%;
 }
