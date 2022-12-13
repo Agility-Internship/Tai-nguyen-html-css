@@ -64,14 +64,14 @@
   padding: 20px 0 0 2px;
 }
 
-.btn-try {
+.btn-primary {
   width: 200px;
   height: 65px;
   border: 2px solid var(--quaternary-color);
   margin: 20px 20px 0 2px;
 }
 
-.btn-blank {
+.btn-secondary {
   border: 2px solid var(--quaternary-color);
   color: var(--quaternary-color);
   background: var(--quinary-color);
@@ -86,13 +86,13 @@
   margin: 0 -1070px -15px -15px;
 }
 
-.square-one {
+.square-primary {
   background: var(--square-one-color);
   bottom: 450px;
   left: 325px;
 }
 
-.square-two {
+.square-secondary {
   background: var(--square-two-color);
   bottom: 480px;
   left: 1045px;
@@ -108,14 +108,14 @@
   left: 775px;
 }
 
-.diamond-one {
+.diamond-primary {
   width: 57.89px;
   height: 57.89px;
   background: var(--tertiary-color);
   bottom: 483px;
   left: 1226px;
 }
-.diamond-two {
+.diamond-secondary {
   width: 39.89px;
   height: 39.89px;
   background: var(--diamond-color);
@@ -163,52 +163,8 @@
   top: 0px;
 }
 
-.btn-video {
+.btn-tertiary {
   position: relative;
   border: none;
   top: 40px;
-}
-
-.info{
-  position: relative;
-  width: 1089px;
-  height: 533px;
-  display: flex;
-  left: 150px;
-  top: 270px;
-}
-
-.info-card{
-  position: relative;
-  width: 320px;
-  height: 449px;
-  padding: 0 0 0 50px;
-
-}
-.img-girl{
-  width: 320px;
-  height: 253px;
-}
-.text-img{
-  font-size: var(--font-size-xxx-small);
-  line-height: var(--line-height-medium);
-  width: 251px;
-  height: 102px;
-  justify-content: center;
-}
-.link{
-  font-size: var(--font-size-xxx-small);
-}
-
-.img-team{
-  position: relative;
-  width: 320px;
-  height: 249px;
-  top: 85px;
-}
-
-.text-card{
-  width: 320px;
-  height: 196px;
-  background: var(--quinary-color);
 }
