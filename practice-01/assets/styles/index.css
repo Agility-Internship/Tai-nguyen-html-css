@@ -7,7 +7,6 @@
   margin: 0 auto;
 }
 
-
 .container-fluid {
   display: flex;
   justify-content: space-between;
@@ -55,7 +54,7 @@
   padding: 120px 0 0 80px;
   display: flex;
 }
-.banner-text{
+.banner-text {
   z-index: 1;
 }
 
@@ -152,7 +151,6 @@
 }
 
 .title-banner {
-  position: relative;
   text-align: center;
   top: 165px;
 }
@@ -161,10 +159,10 @@
   color: var(--quinary-color);
   text-transform: capitalize;
   line-height: var(--line-height-xxx-large);
+  margin-top: 170px;
 }
 
-.btn-video {
-  position: relative;
+.btn-secondary-bottom {
   border: none;
-  top: 40px;
+  margin-top: 61px;
 }
