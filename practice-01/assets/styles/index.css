@@ -54,7 +54,7 @@
   padding: 120px 0 0 80px;
   display: flex;
 }
-.banner-text{
+.banner-text {
   z-index: 1;
 }
 
@@ -127,53 +127,31 @@
   left: 193px;
 }
 
-.container-marketing {
-  position: relative;
-  width: 1400px;
-  height: 744px;
-  background: var(--secondary-color);
-  bottom: 90px;
-}
-.video {
-  position: relative;
-  display: flex;
-  width: 994px;
-  height: 531px;
-  justify-content: center;
-  align-items: center;
-  margin: 50px 0px 0px 220px;
-}
-
-.video-img {
+.marketing-section {
   position: relative;
   background-image: url(../images/mains/customers.png);
   width: 944px;
   height: 531px;
-  background-position: center;
-  background-repeat: no-repeat;
-  top: 90px;
+  margin-left: 270px;
+  bottom: 150px;
   z-index: 1;
 }
 
-.title-banner {
+.title-poster {
   position: relative;
-  text-align: center;
-  top: 165px;
-}
-
-.title-video {
   color: var(--quinary-color);
   text-transform: capitalize;
   line-height: var(--line-height-xxx-large);
-  top: 0px;
+  text-align: center;
+  margin-top: 170px;
+  top: 165px;
 }
 
-.btn-video {
-  position: relative;
+.marketing-section .btn {
   border: none;
-  top: 40px;
+  margin-top: 222px;
+  margin-left: 39%;
 }
-
 .info {
   position: relative;
   width: 1089px;
@@ -181,91 +159,69 @@
   left: 150px;
   top: 260px;
 }
-.info-background{
+.info-background {
   position: relative;
   width: 1400px;
-  height: 900px;
+  height: 780px;
   right: 151px;
-  bottom: 250px;
-  transform: skewY(-10deg);
+  bottom: 450px;
+  transform: skewY(-5deg);
   background-color: var(--primary-color);
 }
 
-.info-card{
+.info-card {
   position: relative;
   width: 300px;
   height: 449px;
-  bottom: 970px;
+  bottom: 1100px;
+  left: 45px;
 }
 
-.info-team{
-  left: 380px;
-  bottom: 1350px;
+.info-team {
+  left: 360px;
+  bottom: 1470px;
+  left: 395px;
 }
-.img-girl{
+.img-girl {
   width: 300px;
   height: 253px;
 }
-.img-team{
+.img-team {
   width: 300px;
   height: 253px;
 }
-.text-img{
+.text-img {
   position: relative;
   font-size: var(--font-size-xxx-small);
   line-height: var(--line-height-medium);
   left: 15px;
 }
 
-.text-card{
+.text-card {
   width: 300px;
   height: 196px;
   background: var(--quinary-color);
 }
-.link{
+.link {
   position: relative;
+  top: 20px;
   left: 18px;
 }
-.info-text{
+.info-text {
   position: relative;
   width: 365px;
   height: 324px;
-  bottom: 1750px;
+  bottom: 1855px;
   left: 740px;
 }
-.info-title{
+.info-title {
   font-size: var(--font-size-x-large);
   line-height: var(--line-height-x-large);
 }
-.text-sec{
+.text-sec {
   position: relative;
   width: 322px;
   height: 156px;
   top: 20px;
 }
-.circle-secondary{
-  width: 38px;
-  height: 39px;
-  border-radius: 50px;
-  color: var(--circle-two-color);
-  left: 1220px;
-  bottom: 2060px;
-}
-.square-tertiary{
-  width: 32px;
-  height: 32px;
-  color: var(--square-two-color);
-  left: 1000px;
-  bottom: 2200px;
-}
-.diamond-info{
-  width: 61px;
-  height: 61px;
-  color: var(--quinary-color);
-  left: 900px;
-  bottom: 2500px;
-}
-
-
-
 
