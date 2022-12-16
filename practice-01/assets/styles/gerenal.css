@@ -36,15 +36,6 @@
   position: relative;
   transform: rotate(-45deg);
 }
-
-.link{
-  font-family: var(--font-secondary);
-  font-weight: var(--font-weight-bold);
-  line-height: var(--line-height-x-small);
-  color: var(--quaternary-color);
-  text-transform: capitalize;
-}
-
 .link{
   font-family: var(--font-secondary);
   font-weight: var(font-weight-bold);
@@ -52,5 +43,4 @@
   line-height: var(--line-height-xxx-small);
   color: var(--quaternary-color);
   text-transform: capitalize;
-  
 }
