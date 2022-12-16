@@ -9,7 +9,6 @@
   /* --------------font----------------- */
   --font-primary: "playfairdisplay";
   --font-secondary: "raleway";
-
   /* ---------color---------- */
   --primary-color: #caeac7;
   --secondary-color: #f7f7f7;
@@ -21,13 +20,11 @@
   --circle-one-color: #d9f4f2;
   --circle-two-color: #afcbad;
   --diamond-color: #f4bebd;
-
   /* ----------font weight------------ */
   --font-weight-black: 900;
   --font-weight-bold: 800;
   --font-weight-thin: 700;
   --font-weight-medium: 500;
-
   /* ----------font-size-------------- */
   --font-size-xxx-small: 16px;
   --font-size-xx-small: 17px;
@@ -38,7 +35,6 @@
   --font-size-x-large: 44px;
   --font-size-xx-large: 59px;
   --font-size-xxx-large: 60px;
-
   /* -----------line-height---------- */
   --line-height-xxx-small: 19px;
   --line-height-xx-small: 20px;
@@ -51,4 +47,5 @@
   --line-height-xx-large: 71px;
   --line-height-xxx-large: 80px;
 
+  /* ----------------------- */
 }
