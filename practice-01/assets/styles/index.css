@@ -132,9 +132,9 @@
   background-image: url(../images/mains/customers.png);
   width: 944px;
   height: 531px;
-  margin-left: 270px;
-  bottom: 150px;
-  z-index: 1;
+  background-position: center;
+  background-repeat: no-repeat;
+  top: 90px;
 }
 
 .title-poster {
@@ -149,79 +149,51 @@
 
 .marketing-section .btn {
   border: none;
-  margin-top: 222px;
-  margin-left: 39%;
+  top: 40px;
 }
-.info {
+
+.info{
   position: relative;
   width: 1089px;
   height: 533px;
+  display: flex;
   left: 150px;
-  top: 260px;
-}
-.info-background {
-  position: relative;
-  width: 1400px;
-  height: 780px;
-  right: 151px;
-  bottom: 450px;
-  transform: skewY(-5deg);
-  background-color: var(--primary-color);
+  top: 270px;
 }
 
-.info-card {
+.info-card{
   position: relative;
-  width: 300px;
+  width: 320px;
   height: 449px;
-  bottom: 1100px;
-  left: 45px;
-}
+  padding: 0 0 0 50px;
 
-.info-team {
-  left: 360px;
-  bottom: 1470px;
-  left: 395px;
 }
-.img-girl {
-  width: 300px;
+.img-girl{
+  width: 320px;
   height: 253px;
 }
-.img-team {
-  width: 300px;
-  height: 253px;
-}
-.text-img {
-  position: relative;
+.text-img{
   font-size: var(--font-size-xxx-small);
   line-height: var(--line-height-medium);
-  left: 15px;
+  width: 251px;
+  height: 102px;
+  justify-content: center;
+}
+.link{
+  font-size: var(--font-size-xxx-small);
 }
 
-.text-card {
-  width: 300px;
+.img-team{
+  position: relative;
+  width: 320px;
+  height: 249px;
+  top: 85px;
+}
+
+.text-card{
+  width: 320px;
   height: 196px;
   background: var(--quinary-color);
 }
-.link {
-  position: relative;
-  top: 20px;
-  left: 18px;
-}
-.info-text {
-  position: relative;
-  width: 365px;
-  height: 324px;
-  bottom: 1855px;
-  left: 740px;
-}
-.info-title {
-  font-size: var(--font-size-x-large);
-  line-height: var(--line-height-x-large);
-}
-.text-sec {
-  position: relative;
-  width: 322px;
-  height: 156px;
-  top: 20px;
-}
-
+=========
+>>>>>>>>> Temporary merge branch 2
