@@ -4,6 +4,7 @@
 
 .wrapper {
   max-width: 1440px;
+  height: 3932px;
   margin: 0 auto;
 }
 
@@ -234,7 +235,7 @@
 .text-team {
   margin-top: 115px;
 }
-.contact{
+.contact {
   position: relative;
   width: 1089px;
   height: 530px;
@@ -242,26 +243,26 @@
   left: 165px;
   z-index: 1;
 }
-.contact-img{
+.contact-img {
   width: 342px;
   height: 239px;
 }
-.img-frankie{
+.img-frankie {
   background-image: url(../images/mains/frankie.jpg);
 }
-.img-camile{
+.img-camile {
   position: relative;
   background-image: url(../images/mains/camile.jpg);
   bottom: 240px;
   left: 375px;
 }
-.img-elayne{
+.img-elayne {
   position: relative;
   background-image: url(../images/mains/elayne.jpg);
   bottom: 478px;
   left: 748px;
 }
-.contact-name{
+.contact-name {
   font-family: var(--font-secondary);
   font-weight: var(--font-weight-black);
   font-size: var(--font-size-medium);
@@ -271,7 +272,7 @@
   top: 160px;
   left: 20px;
 }
-.contact-date{
+.contact-date {
   font-family: var(--font-secondary);
   font-weight: var(--font-weight-thin);
   font-size: var(--font-size-x-small);
@@ -281,7 +282,7 @@
   top: 165px;
   left: 20px;
 }
-.contact-title{
+.contact-title {
   position: relative;
   width: 904px;
   height: 97px;
@@ -290,31 +291,29 @@
   bottom: 410px;
   left: 185px;
 }
-.contact-form{
+.contact-form {
   position: relative;
   width: 668px;
   height: 110px;
   bottom: 350px;
 }
-.form{
+.form {
   position: relative;
   width: 420px;
   height: 65px;
   border-radius: 5px;
   left: 185px;
 }
-.btn-form{
+.btn-form {
   position: relative;
   width: 221px;
   height: 65px;
   bottom: 31px;
   left: 210px;
 }
-.link-form{
+.link-form {
   font-size: var(--font-size-small);
   line-height: var(--line-height-small);
   position: relative;
   left: 220px;
 }
-
-
